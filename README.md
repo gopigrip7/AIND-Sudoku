@@ -7,7 +7,7 @@ A: In the naked twins problem, the constraint is where any same two digits appea
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: This is much straight forward. The diagonal sudoku problem is much like normal sudoku where the constraint is the digits from 1 to 9 appear only ones in the left to right and right to left diagonals. This constraint is added to the unit list as one of the constraints. Eliminate, only_once and the naked_twin constraint are propagated the same way solving the diagonal problem.
 
 ### Install
 
