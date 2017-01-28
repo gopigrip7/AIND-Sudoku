@@ -3,7 +3,7 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: In the naked twins problem, the constraint is where any same two digits appear twice in the same units. Since two digits appear in the same unit, twice the constraint is these two digits cannot appear in any other boxes of the same units.This reduce the Sudoku problem to much solvable state and propagating this with elimination and only_once constraint reduce the problem to solved
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
